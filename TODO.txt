@@ -1,0 +1,2 @@
+import image to .tsx
+import styles to .tsx
