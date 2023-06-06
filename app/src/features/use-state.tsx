@@ -11,11 +11,6 @@ export function TryUseState() {
   //specify type, make nullable, use union type
   const [user, setUser] = useState<User | null>(null);
 
-  //or we cal lies to the Typescript that user in not nullable
-  const [adminUser, setAdminUser] = useState<User>({} as User);
-  //but we need to make sure that a state is initialized soon after setup to avoid runtime errors
-  setAdminUser({ name: "David", age: 40 });
-
   function enableDisableSubmit(e: React.MouseEvent<HTMLButtonElement>) {
     e.preventDefault();
     setIsDisabled(!isDisabled);
