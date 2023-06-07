@@ -23,7 +23,7 @@ export function TryUseState() {
   }
   return (
     <>
-      <h3>Try useState</h3>
+      
       <button onClick={enableDisableSubmit}>Enable/disable submit</button>
       <button disabled={isDisabled}>Submit</button>
       <br />

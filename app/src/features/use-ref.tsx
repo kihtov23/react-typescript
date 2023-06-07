@@ -11,7 +11,7 @@ export function TryUseRef(): JSX.Element {
   }
   return (
     <>
-      <h3>Try useRef</h3>
+      
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="your name" ref={inputRef}></input>
         <button type="submit">Print to Console</button>

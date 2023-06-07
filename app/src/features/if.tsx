@@ -6,7 +6,6 @@ export function TryIfStatement() {
 
   return (
     <>
-      <h3>Try if statement</h3>
       {falseCondition ? (
         <h2>This should be hidden</h2>
       ) : (
