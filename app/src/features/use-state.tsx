@@ -7,6 +7,7 @@ type User = {
 
 export function TryUseState() {
   //here type inference was applied
+  // !!!When we call setIsDisabled React re-renders full component and all child components !!!
   const [isDisabled, setIsDisabled] = useState(true);
   //specify type, make nullable, use union type
   const [user, setUser] = useState<User | null>(null);
@@ -23,7 +24,6 @@ export function TryUseState() {
   }
   return (
     <>
-      
       <button onClick={enableDisableSubmit}>Enable/disable submit</button>
       <button disabled={isDisabled}>Submit</button>
       <br />

@@ -5,6 +5,10 @@ import { TryAddStylesheet } from "./features/add-stylesheet/add-stylesheet";
 import { TryIfStatement } from "./features/if";
 import { TryApiCall } from "./features/api/get-product-api-call";
 import { TryUseEffect } from "./features/use-effect";
+import {
+  TryAfterUseCallback,
+  TryBeforeUseCallback,
+} from "./features/use-callback";
 
 function App() {
   return (
@@ -28,6 +32,10 @@ function App() {
       <hr />
       <h3>Try useEffect</h3>
       <TryUseEffect />
+      <hr />
+      <h3>Try BeforeUseCallback</h3>
+      <TryBeforeUseCallback />
+      <TryAfterUseCallback />
     </>
   );
 }
