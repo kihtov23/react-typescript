@@ -7,3 +7,6 @@
 
 - React TypeScript cheat sheet (bare minimum theory)
   https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example
+
+- Add typescript to react app
+  https://create-react-app.dev/docs/adding-typescript/

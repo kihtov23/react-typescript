@@ -9,6 +9,8 @@ import {
   TryAfterUseCallback,
   TryBeforeUseCallback,
 } from "./features/use-callback";
+import { TryParentComponent } from "./features/component-as-parameter/parent-component";
+import { TryChildComponent } from "./features/component-as-parameter/child-component";
 
 function App() {
   return (
@@ -36,6 +38,11 @@ function App() {
       <h3>Try BeforeUseCallback</h3>
       <TryBeforeUseCallback />
       <TryAfterUseCallback />
+      <hr />
+      <h3>Try component as parameter</h3>
+      <TryParentComponent>
+        <TryChildComponent />
+      </TryParentComponent>
     </>
   );
 }

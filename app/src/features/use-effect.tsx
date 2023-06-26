@@ -24,7 +24,8 @@ export function TryUseEffect() {
     setProduct(productResponse.data);
   }
 
-  //useEffect should be used when connect to some infrastructure (API call, timer etc, which reach does not handle)
+  //useEffect should be used when connect to some infrastructure like
+  // API call, timer etc, with data which React does not handle)
   useEffect(() => {
     loadProductAsync();
   }, []);

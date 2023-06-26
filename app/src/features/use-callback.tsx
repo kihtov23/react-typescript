@@ -1,5 +1,5 @@
 //useCallback is used to cache a function definition between re-renders
-//usecase - when function is passed as a parameter
+//use case - when function is passed as a parameter
 import react, { useCallback, useEffect, useState } from "react";
 
 // this component demonstrates that when setState is called, then
