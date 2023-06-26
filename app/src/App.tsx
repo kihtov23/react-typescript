@@ -11,6 +11,7 @@ import {
 } from "./features/use-callback";
 import { TryParentComponent } from "./features/component-as-parameter/parent-component";
 import { TryChildComponent } from "./features/component-as-parameter/child-component";
+import { TryGenerateKeys } from "./features/generate-keys";
 
 function App() {
   return (
@@ -43,6 +44,9 @@ function App() {
       <TryParentComponent>
         <TryChildComponent />
       </TryParentComponent>
+      <hr />
+      <h3>Try generate keys </h3>
+      <TryGenerateKeys />
     </>
   );
 }
