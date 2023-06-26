@@ -15,7 +15,7 @@ export function TryBeforeUseCallback() {
 
   return (
     <>
-      <button onClick={() => setSubmitted(!submitted)}>Handle name</button>
+      <button onClick={() => setSubmitted(!submitted)}>do something</button>
       <DisplayAPIData getDataFromApi={getDataFromApi} />
     </>
   );
@@ -37,7 +37,7 @@ export function TryAfterUseCallback() {
 
   return (
     <>
-      <button onClick={() => setSubmitted(!submitted)}>Handle name</button>
+      <button onClick={() => setSubmitted(!submitted)}>do something</button>
       <DisplayAPIData getDataFromApi={memorizedGetDataFromApi} />
     </>
   );
