@@ -12,6 +12,7 @@ import {
 import { TryParentComponent } from "./features/component-as-parameter/parent-component";
 import { TryChildComponent } from "./features/component-as-parameter/child-component";
 import { TryGenerateKeys } from "./features/generate-keys";
+import { TryUseMemo } from "./features/use-memo";
 
 function App() {
   return (
@@ -47,6 +48,9 @@ function App() {
       <hr />
       <h3>Try generate keys </h3>
       <TryGenerateKeys />
+      <hr />
+      <h3>Try use memo</h3>
+      <TryUseMemo />
     </>
   );
 }
