@@ -13,6 +13,7 @@ import { TryParentComponent } from "./features/component-as-parameter/parent-com
 import { TryChildComponent } from "./features/component-as-parameter/child-component";
 import { TryGenerateKeys } from "./features/generate-keys";
 import { TryUseMemo } from "./features/use-memo";
+import { ParentUserComponent } from "./features/context/parent-user-component";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
       <hr />
       <h3>Try use memo</h3>
       <TryUseMemo />
+      <hr />
+      <h3>Try context.</h3>
+      <ParentUserComponent />
     </>
   );
 }
